@@ -4,7 +4,7 @@ Entonces, según a las especificaciones, como se quiere consumir en los verbos G
 - Nos instancie un objeto de la clase Client de Guzzle
 - Preparamos el esquema de invoación de cada verbo o en otras palabras un metodo para cada verbo
 
-Esta clase la llamé GClient y la guardé junto a los modelos en [app/Models](../app/Models/GClient.php).
+Esta clase la llamé GClient y la guardé junto a los modelos en [app/Models](app/Models/GClient.php).
 
 Ahora, una vez que tenemos nuestro cliente listo para recibir los diferentes verbos a utilizar, procedemos a configurar las rutas(routes/web.php) y el controlador de las mismas(app/Http/Controllers/ApiController.php); inicialmente configuré la ruta del index `/` para que consuma la API por GET apuntando al metodo index del controlador.
 
